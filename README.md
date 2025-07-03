@@ -68,6 +68,7 @@ better.
 3. Run the program
 
 > **_NOTE:_**  Demco requires ffmpeg.exe to be RIGHT NEXT to it, otherwise it will not work. (for linux you need to have it installed globally)
+
 > **_INFO:_**  If for some reason you have only demco.exe and not ffmpeg.exe, here is link where you can get [correct ffmpeg executable](https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip)
 
 ## How to build?
