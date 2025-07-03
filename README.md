@@ -74,7 +74,7 @@ better.
 ## How to build?
 
 1. Install C compiler for your platform
-    - on windows follow[this 2 minutes guide](https://www.youtube.com/watch?v=k6juv3mIr9o) by Nick Walton
+    - on windows follow [this 2 minutes guide](https://www.youtube.com/watch?v=k6juv3mIr9o) by Nick Walton
     - on linux use package manager to install ANY C compiler (i suggest gcc or clang)
 2. Get source
     ```bash
