@@ -11,9 +11,9 @@ Also i may redo the User Interface, since i already found out a better way of do
 
 ## Contribution
 If you happen to use this... and like it!? Please.. submit issues or feature requests if you have some good one.
-I may not add them at first, but the idea you have is decent, i would definitely experiment with it in future releases.
+I may not add them at first, but if the idea you have is decent, i would definitely experiment with it in future releases.
 
-Also you can submit nice looking `.rgs` themes you made, they might get added in-between the program updates!
+Also you can submit nice looking `.rgs` themes you made, they might get added in-between sizable program updates!
 
 ## Why?
 
