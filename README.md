@@ -60,6 +60,48 @@ better.
 - fancier looking progress screen and animations for it
 - add high-contrast font for easier reading for people with vision problems or eye diseases
 
+## How to install?
+
+
+1. Download `demco_1.0b.zip` from release's page
+2. Unzip contents anywhere
+3. Run the program
+
+> **_NOTE:_**  Demco requires ffmpeg.exe to be RIGHT NEXT to it, otherwise it will not work. (for linux you need to have it installed globally)
+> **_INFO:_**  If for some reason you have only demco.exe and not ffmpeg.exe, here is link where you can get [correct ffmpeg executable](https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip)
+
+## How to build?
+
+1. Install C compiler for your platform
+    - on windows follow[this 2 minutes guide](https://www.youtube.com/watch?v=k6juv3mIr9o) by Nick Walton
+    - on linux use package manager to install ANY C compiler (i suggest gcc or clang)
+2. Get source
+    ```bash
+        git clone --depth=1 https://github.com/amuerta/demco
+    ```
+
+    or download from the website directly.
+
+3. build the build system
+    ```bash
+        cc -o build build.c
+    ```
+
+4. build the project
+    ```bash
+        # for linux users
+        ./build 
+
+        # for windows users
+        ./build win-native
+
+        # for people who want to build FROM linux TO windows using mingw
+        ./build win-mingw
+
+        # for debugging or development
+        ./build debug memsan run
+    ```
+
 ## SHOWCASE
 
 ![Dark theme - Convert tab](./showcase/1.png)
